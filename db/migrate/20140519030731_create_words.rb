@@ -4,7 +4,6 @@ class CreateWords < ActiveRecord::Migration
       t.string :word
       t.string :meaning
       t.string :part_of_speach
-      t.string :sample_sentence
 
       t.timestamps
     end

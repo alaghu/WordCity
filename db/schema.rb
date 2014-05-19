@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140519030731) do
+ActiveRecord::Schema.define(version: 20140519032459) do
 
   create_table "words", force: true do |t|
     t.string   "word"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20140519030731) do
     t.string   "part_of_speach"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "sample_sentence"
   end
 
 end

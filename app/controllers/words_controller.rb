@@ -4,7 +4,12 @@ class WordsController < ApplicationController
   # GET /words
   # GET /words.json
   def index
-    @words = Word.all
+
+    random_id = (1..Word.last.id).to_a.sample(20)
+
+
+
+    @words = Word.where(id: random_id)
   end
 
   # GET /words/1

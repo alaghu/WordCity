@@ -5,3 +5,26 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Word.delete_all
+
+Word.create ({word: 'hello'})
+
+
+list_of_files = [10, 20, 35, 50, 55, 60, 70, 80, 95]
+
+list_of_files.each do |file_prefix|
+
+  File.open("db/sample_words/american-words.#{file_prefix}") do |file|
+
+    file.each_line do |line|
+      # puts line
+
+
+      Word.create ({word: "#{line}"})
+
+    end
+
+  end
+end
+
