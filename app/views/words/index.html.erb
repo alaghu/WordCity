@@ -3,6 +3,8 @@
 <table>
   <thead>
     <tr>
+      <th>Row</th>
+
       <th>Word</th>
       <th>Meaning</th>
       <th>Part of speach</th>
@@ -14,28 +16,44 @@
   </thead>
 
   <tbody>
-    <% @words.each do |word| %>
+    <% @words.each_with_index do |word, index| %>
       <tr>
+        <td><%= index %></td>
         <td><%= word.word %></td>
-        <td><%= word.meaning %></td>
+
+        <% meaning = Wordnik.word.get_definitions(word.word.strip.downcase, source_dictionaries: "wiktionary") %>
+
+        <% if meaning.blank? %>
+            <td> No Value from wordnik </td>
+        <% else %>
+            <td> <%= meaning.first["text"] %>  </td>
+        <% end %>
+
+        <td> <%= meaning.class %>  </td>
+
+        <!--<td><%= word.meaning %></td>-->
         <td><%= word.part_of_speach %></td>
         <td><%= word.sample_sentence %></td>
+
+
+
+
+
         <td><%= link_to 'Show', word %></td>
         <td><%= link_to 'Edit', edit_word_path(word) %></td>
-        <td><%= link_to 'Destroy', word, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+        <td><%= link_to 'Destroy', word, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+            </tr>
     <% end %>
-  </tbody>
-</table>
+        </tbody>
+        </table>
 
 <br>
 
 
-<!--<% meaning = Wordnik.word.get_definitions("hypnotize", source_dictionaries: "wiktionary") %>-->
+<h4 style="text-decoration: underline">wiktionary</h4>
 
 
-<!--<h4 style="text-decoration: underline">wiktionary</h4>-->
-<!--<%= meaning.first["text"] %>-->
+<br>
 
 
 

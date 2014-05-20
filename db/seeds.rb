@@ -21,7 +21,7 @@ list_of_files.each do |file_prefix|
       # puts line
 
 
-      Word.create ({word: "#{line}"})
+      Word.create ({word: "#{line.strip}"})
 
     end
 
