@@ -4,10 +4,7 @@ class WordsController < ApplicationController
   # GET /words
   # GET /words.json
   def index
-
     random_id = (1..Word.last.id).to_a.sample(20)
-
-
 
     @words = Word.where(id: random_id)
   end
@@ -74,6 +71,6 @@ class WordsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def word_params
-      params.require(:word).permit(:word, :meaning, :part_of_speach)
+      params.require(:word).permit(:word, :meaning, :part_of_speach, :sample_sentence)
     end
 end
