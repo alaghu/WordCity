@@ -55,10 +55,9 @@ gem 'pry-rails', :group => :development
 # Word Source Related
 gem 'wordnet'
 
-# Word meaning Related
 gem 'wordnik'
 
-# Word and Text parsisng related
+# Word and Text parsing related
 gem 'engtagger'
 
 
