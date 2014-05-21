@@ -23,4 +23,7 @@
       <primary-key columns="id"/>
     </table>
   </data-source>
+  <data-source source="LOCAL" name="Rails WordCity: test" uuid="5c117927-9820-4c6f-89d1-50f171266890">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2168030120">
+  <component name="DataSourceManagerImpl" format="xml" hash="3699374355">
     <data-source source="LOCAL" name="Rails WordCity: development" uuid="6045b41d-63f6-4734-bd1d-e347522ededb">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/wordcity_development</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails WordCity: test" uuid="5c117927-9820-4c6f-89d1-50f171266890">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/wordcity_test</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>
