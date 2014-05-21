@@ -10,8 +10,11 @@ Word.delete_all
 
 Word.create ({word: 'hello'})
 
+# The total number of records should not exceed 10,000. Else Heroku revokes access.
+# Therefore, removed file 95 for now. Currently, without 95, we are getting around
+# 8700 rows.
 
-list_of_files = [10, 20, 35, 50, 55, 60, 70, 80, 95]
+list_of_files = [10, 20, 35, 50, 55, 60, 70, 80]
 
 list_of_files.each do |file_prefix|
 
