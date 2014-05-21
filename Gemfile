@@ -67,3 +67,6 @@ gem 'engtagger'
 
 # heroku
 gem 'rails_12factor', group: :production
+
+# new relic for performance monitoring
+gem 'newrelic_rpm'
