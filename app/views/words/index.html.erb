@@ -23,12 +23,12 @@
 
         <% meaning = Wordnik.word.get_definitions(word.word.strip.downcase, source_dictionaries: "wiktionary") %>
 
-        <% tagger = EngTagger.new %>
+
 
         <% if meaning.blank? %>
             <td> No Value from wordnik </td>
         <% else %>
-            <td> <%= tagger.add_tags(meaning.first["text"]) %>  </td>
+            <td> <%= meaning.first["text"] %>  </td>
         <% end %>
 
         <td> <%= meaning.class %>  </td>
