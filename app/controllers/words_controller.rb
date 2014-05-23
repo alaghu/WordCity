@@ -12,6 +12,8 @@ class WordsController < ApplicationController
   # GET /words/1
   # GET /words/1.json
   def show
+
+
   end
 
   # GET /words/new

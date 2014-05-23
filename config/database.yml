@@ -3,7 +3,9 @@ development:
   database: wordcity_development
   host: localhost
 
-test:
+test: &test
   adapter: postgresql
   database: wordcity_test
   host: localhost
+cucumber:
+  <<: *test

@@ -70,3 +70,17 @@ gem 'rails_12factor', group: :production
 
 # new relic for performance monitoring
 gem 'newrelic_rpm'
+
+# testing related
+
+group :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'capybara-webkit'
+
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+
+
+end

@@ -131,10 +131,13 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capybara (v2.2.1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capybara-webkit (v1.1.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.7.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="engtagger (v0.2.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ethon (v0.7.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
@@ -167,6 +170,8 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.3.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.1.1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.14.5, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v2.14.1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.3, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
@@ -184,6 +189,7 @@
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wordnet (v1.0.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wordnik (v4.12, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="xpath (v2.0.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
